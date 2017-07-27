@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  iOS下载播放M3U8终极解决方案
+//
+//  Created by 张祎 on 2017/7/19.
+//  Copyright © 2017年 张祎. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AppDelegate.h"
+#import "UIColor+AddColor.h"
+#import "Masonry.h"
+#define VIDEOHEIGHT 270
+#define NAVIHEIGHT 64
+
+#endif /* PrefixHeader_pch */
